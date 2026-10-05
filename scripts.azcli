@@ -1,0 +1,5 @@
+# Build the image
+docker build -t python-demo .
+
+# Run the container
+docker run -p 5001:5000 -d python-demo
